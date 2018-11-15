@@ -6,6 +6,9 @@ spring:
   profiles:
     active: dev
   cloud:
+    bus:
+      trace:
+        enable: true
     config:
       server:
         git:
@@ -14,6 +17,11 @@ spring:
           username: AarynArwin #访问git仓库的用户名
           password: superman713. #访问git仓库的用户密码
       label: master #配置仓库的分支
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: geekerit
+    password: cnh1k2jJhz
 eureka:
   instance:
     hostname: ${spring.cloud.client.ipAddress}
@@ -21,3 +29,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+management:
+  security:
+    enabled: false

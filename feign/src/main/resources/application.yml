@@ -7,6 +7,11 @@ server:
 spring:
   application:
     name: feign
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: geekerit
+    password: cnh1k2jJhz
 #开启熔断器
 feign:
   hystrix:

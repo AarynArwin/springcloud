@@ -11,7 +11,13 @@ spring:
       discovery:
         enabled: true
         serviceId: config #连接的配置中心名字（applicaiton.name）
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: geekerit
+    password: cnh1k2jJhz
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
