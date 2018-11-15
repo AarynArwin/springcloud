@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed625e12-99ce-4a16-baf7-82086cac8c02" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configcenter/eurekaclient.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configcenter/eurekaclient.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/geekerit/provider/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/geekerit/provider/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/geekerit/provider/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/geekerit/provider/controller/HelloController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,16 +66,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eurekaclient.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="eurekaclient.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/configcenter/eurekaclient.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="95">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/geekerit/provider/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -152,8 +148,8 @@
         <option value="$PROJECT_DIR$/provider/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/config/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/provider/pom.xml" />
-        <option value="$PROJECT_DIR$/configcenter/eurekaclient.yml" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/geekerit/provider/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/configcenter/eurekaclient.yml" />
       </list>
     </option>
   </component>
@@ -440,7 +436,7 @@
       <updated>1542203834165</updated>
       <workItem from="1542203835778" duration="5926000" />
       <workItem from="1542248856125" duration="1579000" />
-      <workItem from="1542263082881" duration="4347000" />
+      <workItem from="1542263082881" duration="4558000" />
     </task>
     <servers />
   </component>
@@ -462,7 +458,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11852000" />
+    <option name="totallyTimeSpent" value="12063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -926,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configcenter/eurekaclient.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/geekerit/provider/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -941,6 +930,13 @@
             <element signature="e#383#384#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configcenter/eurekaclient.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
