@@ -7,8 +7,13 @@ server:
 spring:
   application:
     name: eurekaclient
-  zipkin:
-      base-url: http://localhost:9411
+  #zipkin:
+      #base-url: http://localhost:9411
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: geekerit
+    #password: cnh1k2jJhz
   sleuth:
       sampler:
           percentage: 1.0

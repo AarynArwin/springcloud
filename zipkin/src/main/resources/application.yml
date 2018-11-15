@@ -1,2 +1,13 @@
 server:
   port: 9411
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: geekerit
+    password: cnh1k2jJhz
+  datasource:
+    url: jdbc:mysql://localhost:3306/zipkin?autoReconnect=true
+    username: root
+    password: superman713
+    driverClassName: com.mysql.jdbc.Driver
